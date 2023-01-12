@@ -1,0 +1,97 @@
+.flex { 
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    height: 650px;
+    border: 3px red dotted;
+    justify-content: center;
+    align-items: center;
+}
+
+/* left side */
+.left-side{
+    width: 500px;
+    height: 600px;
+    border: 2px green dotted;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.l1 {
+    width: 150px;
+    height: 30px;
+    border: 2px yellow dotted
+}
+
+.l2 {
+    width: 150px;
+    height: 30px;
+    border: 2px blue dotted
+}
+
+.main-text {
+    width: 400px;
+    height: 200px;
+    border: 2px black dotted;
+    
+}
+
+.sponser-container {
+    justify-content: space-between;
+}
+
+.sponser-box {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* right side */
+
+.right-side{
+    width: 500px;
+    height: 600px;
+    border: 2px orange dotted;
+    /* flex-direction: column;
+    justify-content: center; */
+}
+
+.right-form {
+    width: 400px;
+    height: 500px;
+    border: 2px rgb(159, 0, 69) dotted;
+    margin: auto;
+    flex-direction: column;
+    }
+
+.social-links {
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+.login {
+    height: 200px;
+    border: 2px black dotted;
+}
+
+.blue {
+    border: 2px blue dotted;
+    height: 200px;
+}
+
+
+.flex-grow0 {
+    flex-grow: 0;
+}
+
+.flex-grow1 {
+    flex-grow: 1;
+}
